@@ -5,7 +5,7 @@ Two machine-learning classifiers for predicting the mantle reservoir of basalt s
 
 ## Installation
 1. Install H2O and dependencies: pip install -r requirements.txt
-2. Download the trained model file (`classifier_general.zip` or 'classifier_HIMU.zip') and place it in a `saved_model/` directory
+2. Download the trained model file (`classifier_general` or 'classifier_HIMU') and place it in a `saved_model/` directory
 
 ## Usage
 1. **Open Python and run the code from the following Python script:** python_classifier.py
@@ -20,7 +20,6 @@ Two machine-learning classifiers for predicting the mantle reservoir of basalt s
 - The program will prompt you to enter each trace element or ratio value
 - The predicted mantle reservoir (DM, EM1, EM2, or HIMU) will be displayed on screen
 5. **To use the classifier optimized for HIMU**
--Modify the load_model function in the Python script: When defining the variable model_path, change "classifier_general.zip" to "classifier_HIMU.zip".
+-Modify the load_model function in the Python script: When defining the variable model_path, change "classifier_general" to "classifier_HIMU".
 -This will load the second classifier, which uses different training data and is optimized to improve classification of the HIMU reservoir.
 -Run the modified Python script on your trace element data to obtain mantle reservoir predictions
-
