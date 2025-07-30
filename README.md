@@ -14,6 +14,7 @@ Two machine-learning classifiers for predicting the mantle reservoir of basalt s
 - Choose option 2 to classify a single sample by entering values manually
 3. **For CSV input (Option 1):**
 - Prepare a CSV file with 14 columns containing the required trace element data (include labels for each trace element variable in the first row)
+- (Refer to sample_input.csv for an example.)
 - When prompted, enter the full path to your CSV file
 - Specify the directory to which you want to save the results
 4. **For single sample input (Option 2):**
