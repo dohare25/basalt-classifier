@@ -1,7 +1,7 @@
 # basalt-classifiers
 
 ## Description
-Two machine-learning classifiers for predicting the mantle reservoir of basalt samples from trace element (TE) geochemistry.
+Two machine-learning classifiers (Stacked Ensemble models) for predicting the mantle reservoir of basalt samples from trace element (TE) geochemistry.
 
 ## Installation
 1. Install H2O and dependencies: pip install -r requirements.txt
