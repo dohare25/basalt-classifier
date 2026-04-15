@@ -5,7 +5,7 @@ A machine-learning-based classifier (Stacked Ensemble) for predicting the mantle
 
 ## Installation
 1. Install H2O and dependencies: pip install -r requirements.txt
-2. Download the trained model file (`classifier') and place it in a `saved_model/` directory
+2. Download the trained model file ('classifier') and place it in a `saved_model/` directory
 
 ## Usage
 1. **Open Python and run the code from the following Python script:** python_classifier.py
@@ -13,7 +13,7 @@ A machine-learning-based classifier (Stacked Ensemble) for predicting the mantle
 - Choose option 1 to classify multiple samples from a CSV file
 - Choose option 2 to classify a single sample by entering values manually
 3. **For CSV input (Option 1):**
-- Prepare a CSV file with 6 columns containing the required trace element data (include labels for each trace element variable in the first row)
+- Prepare a CSV file with 6 columns containing the required trace element data in ppm (number values only) (include labels for each trace element variable in the first row)
 - (Refer to sample_input.csv for an example.)
 - When prompted, enter the full path to your CSV file
 - Specify the directory to which you want to save the results
