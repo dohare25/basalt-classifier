@@ -12,11 +12,11 @@ Requirements:
     - pandas
 
 Input features (6 columns required):
-    U/Pb  : U/Pb ratio (dimensionless)
     Nb    : Nb concentration (ppm)
-    Th/U  : Th/U ratio (dimensionless)
+    U/Pb  : U/Pb ratio (dimensionless)
     La    : La concentration (ppm)
     Rb    : Rb concentration (ppm)
+    Th/U  : Th/U ratio (dimensionless)
     Ba    : Ba concentration (ppm)
 
 The script will prompt you to choose between:
@@ -24,7 +24,7 @@ The script will prompt you to choose between:
     2. Single sample classification with manual input
 
 For CSV input, ensure your file has 6 columns in the following order:
-    U/Pb, Nb, Th/U, La, Rb, Ba
+    Nb, U/Pb, La, Rb, Th/U, Ba
 
 Notes:
     - This model was trained with H2O version 3.46.0.10. It is recommended
@@ -40,7 +40,7 @@ import h2o
 import pandas as pd
 
 
-FEATURE_NAMES = ["U/Pb", "Nb", "Th/U", "La", "Rb", "Ba"]
+FEATURE_NAMES = ["Nb", "U/Pb", "La", "Rb", "Th/U", "Ba"]
 
 
 def load_model():
